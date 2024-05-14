@@ -1,0 +1,13 @@
+#ifndef CLT
+#define CLT
+
+#include "../core-simulador-hpp/ArmaAtaque.hpp"
+class Clt : public ArmaAtaque
+{
+    public:
+        Clt(string descricaoArma, int minForca, int maxForca);
+        int gerarForcaAtaque() override;
+        string gerarRuidoAtaque() override;
+};
+
+#endif
