@@ -1,4 +1,4 @@
-#include "..\personagens-hpp\Bebado.hpp"
+#include "../personagens-hpp/Bebado.hpp"
 
 Bebado::Bebado(int id, string nome, int vida, ArmaAtaque* armaAtaque, ArmaDefesa* armaDefesa)
 :Personagem(id, nome, vida, armaAtaque, armaDefesa){
